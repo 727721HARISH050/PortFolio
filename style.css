@@ -1,0 +1,72 @@
+#hero{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+     font-style: normal;
+    background-color:#FEFAF6 ;
+     height: 100vh; 
+     margin: 0; 
+     color: #141c3a;
+}
+.photo{
+    border-radius: 50%;
+}
+#myskills
+{
+    background-color: #EADBC8;
+    color: #141c3a;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+#recentworks
+{
+    background-color: #DAC0A3;
+    padding: 25px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+     font-style: normal;
+     color:#141c3a;
+    
+}
+.header > h2{
+    display: flex;
+    justify-content: center;
+}
+.header > p{
+    display: flex;
+    justify-content: center;
+}
+.imgcontainer
+{
+    display: flex;
+    justify-content: space-around;
+}
+.img1
+{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 767px)
+{
+
+    .header > p
+    {
+        padding: 0 20px;
+    }
+    .imgcontainer
+    {
+        display: block;
+       
+    }
+    .imgcontainer > .img1,.imgcontainer>.img2
+    {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+}
+#footer
+{
+    background-color:#FEFBF6 ;
+    color: #141c3a;
+}
